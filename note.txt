@@ -1,0 +1,4 @@
+# model migrate commend
+-python manage.py makemigration
+-python manage.py sqlmigarate (appName) 0001(version no from migration folder)
+-python manage.py migrate
